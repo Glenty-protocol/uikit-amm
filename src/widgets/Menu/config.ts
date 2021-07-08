@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.pancakeswap.finance",
+        href: "https://exchange.glenty.com",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.pancakeswap.finance/#/pool",
+        href: "https://exchange.glenty.com/#/pool",
       },
     ],
   },
@@ -95,7 +95,7 @@ export const links = [
     items: [
       // {
       //   label: "Voting",
-      //   href: "https://voting.pancakeswap.finance",
+      //   href: "https://voting.glenty.com",
       // },
       {
         label: "Github",
@@ -120,7 +120,7 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/kittyswap",
+        href: "https://t.me/glenty_com",
       },
       // {
       //   label: "Bahasa Indonesia",
@@ -162,10 +162,6 @@ export const socials = [
       //   label: "Français",
       //   href: "https://t.me/pancakeswapfr",
       // },
-      {
-        label: "Announcements",
-        href: "https://t.me/kittyswapANN",
-      },
       // {
       //   label: "Whale Alert",
       //   href: "https://t.me/PancakeSwapWhales",
@@ -175,7 +171,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/SwapKitty",
+    href: "https://twitter.com/glenty_com",
   },
 ];
 
