@@ -1815,9 +1815,15 @@ var useModal = function (modal, closeOnOverlayClick) {
     return [onPresentCallback, onDismiss];
 };
 
-var tractor = require("./tractor.svg");
 var Icon$I = function (props) {
-    return (React.createElement("img", { style: { width: '24px', marginRight: '5px' }, src: tractor }));
+    return (React.createElement("svg", { style: { width: '24px', marginRight: '5px' }, viewBox: "0 0 24.39 19.18" },
+        React.createElement("defs", null),
+        React.createElement("g", { id: "Layer_2", "data-name": "Layer 2" },
+            React.createElement("g", { id: "TEXT_AND_INFOS", "data-name": "TEXT AND INFOS" },
+                React.createElement("rect", { style: { fill: '#5f6da6' }, x: "2.8", y: "5.18", width: "5.6", height: "1.4" }),
+                React.createElement("path", { style: { fill: '#5f6da6' }, d: "M5.6,8a5.6,5.6,0,1,0,5.6,5.6A5.6,5.6,0,0,0,5.6,8Zm0,8.4a2.8,2.8,0,1,1,2.8-2.8A2.8,2.8,0,0,1,5.6,16.38Z" }),
+                React.createElement("path", { style: { fill: '#5f6da6' }, d: "M20.19,10.78a4.2,4.2,0,1,0,4.2,4.2A4.21,4.21,0,0,0,20.19,10.78Zm0,5.6a1.4,1.4,0,1,1,1.4-1.4A1.4,1.4,0,0,1,20.19,16.38Z" }),
+                React.createElement("path", { style: { fill: '#5f6da6' }, d: "M20.19,9.38a5.61,5.61,0,0,1,1.43.2V4.17H14.93L13.19,2.43,14.63,1l-1-1L9.77,3.87l1,1L12.2,3.42l1.51,1.51S12,8.05,10.19,8.31a7,7,0,0,1,2.41,5.27,7.15,7.15,0,0,1-.14,1.4h2.13A5.62,5.62,0,0,1,20.19,9.38Z" })))));
 };
 
 var Icon$J = function (props) {
@@ -1877,9 +1883,54 @@ var Icon$S = function (props) {
         React.createElement("path", { d: "M12.8533 3.39627C12.4634 2.75821 11.5366 2.75821 11.1467 3.39627L7.42977 9.47855C7.02256 10.1449 7.50213 11 8.28306 11H15.7169C16.4979 11 16.9774 10.1449 16.5702 9.47855L12.8533 3.39627ZM12 5.84L13.93 9H10.06L12 5.84ZM17.5 13C15.01 13 13 15.01 13 17.5C13 19.99 15.01 22 17.5 22C19.99 22 22 19.99 22 17.5C22 15.01 19.99 13 17.5 13ZM17.5 20C16.12 20 15 18.88 15 17.5C15 16.12 16.12 15 17.5 15C18.88 15 20 16.12 20 17.5C20 18.88 18.88 20 17.5 20ZM3 19.5C3 20.6046 3.89543 21.5 5 21.5H9C10.1046 21.5 11 20.6046 11 19.5V15.5C11 14.3954 10.1046 13.5 9 13.5H5C3.89543 13.5 3 14.3954 3 15.5V19.5ZM5 15.5H9V19.5H5V15.5Z" })));
 };
 
-var top100 = require("./top100.svg");
 var Icon$T = function (props) {
-    return (React.createElement("img", { style: { marginRight: '5px', maxWidth: '27px' }, src: top100 }));
+    return (React.createElement("svg", { style: { marginRight: '5px', maxWidth: '27px' }, viewBox: "0 0 30.97 30.97" },
+        React.createElement("defs", null,
+            React.createElement("linearGradient", { id: "D\u00E9grad\u00E9_sans_nom_298", x1: "13.67", y1: "18.48", x2: "7.18", y2: "23.4", gradientUnits: "userSpaceOnUse" },
+                React.createElement("stop", { offset: "0", "stop-color": "#001670" }),
+                React.createElement("stop", { offset: "1", "stop-color": "#001670", "stop-opacity": "0" })),
+            React.createElement("linearGradient", { id: "linear-gradient", x1: "18.82", y1: "17.21", x2: "18.32", y2: "17.21", gradientUnits: "userSpaceOnUse" },
+                React.createElement("stop", { offset: "0", "stop-color": "#fff" }),
+                React.createElement("stop", { offset: "1" })),
+            React.createElement("linearGradient", { id: "D\u00E9grad\u00E9_sans_nom_298-2", x1: "19.32", y1: "16.45", x2: "27.43", y2: "18.66", xlinkHref: "#D\u00E9grad\u00E9_sans_nom_298" }),
+            React.createElement("linearGradient", { id: "D\u00E9grad\u00E9_sans_nom_298-3", x1: "6939.68", y1: "-9520.75", x2: "6947.79", y2: "-9518.54", gradientTransform: "translate(11729.46 1261.24) rotate(-120)", xlinkHref: "#D\u00E9grad\u00E9_sans_nom_298" })),
+        React.createElement("g", { id: "Layer_2", "data-name": "Layer 2" },
+            React.createElement("g", { id: "TEXT_AND_INFOS", "data-name": "TEXT AND INFOS" },
+                React.createElement("path", { style: { fill: '#1e1616' }, d: "M20.56,14.53a6,6,0,0,1,.08,1,5.16,5.16,0,0,1-9.75,2.35A6.67,6.67,0,0,1,7.26,16.5c-2.9-2-4.42-5-5.54-8.11A15.48,15.48,0,0,0,23,29a17.64,17.64,0,0,0,1.39-5.15C24.47,20.56,23.46,16.44,20.56,14.53Z" }),
+                React.createElement("path", { style: { fill: '#f3ba2f' }, d: "M31,15.48A15.48,15.48,0,0,0,23.17,2c-1.44.84-3,1.56-4.39,2.32a8.92,8.92,0,0,0-4.25,6.05,5,5,0,0,1,1-.09,5.17,5.17,0,0,1,5.08,4.21c2.9,1.91,3.91,6,3.82,9.34A17.64,17.64,0,0,1,23,29,15.46,15.46,0,0,0,31,15.48Z" }),
+                React.createElement("path", { style: { fill: '#454a75' }, d: "M7.26,16.5a6.67,6.67,0,0,0,3.63,1.33,5.15,5.15,0,0,1,3.64-7.42,8.92,8.92,0,0,1,4.25-6C20.2,3.6,21.73,2.88,23.17,2A15.49,15.49,0,0,0,1.72,8.39C2.84,11.48,4.36,14.49,7.26,16.5Z" }),
+                React.createElement("line", { style: { fill: 'none' }, x1: "15.48", y1: "15.48", x2: "15.48", y2: "10.32" }),
+                React.createElement("line", { style: { fill: 'none' }, x1: "15.48", y1: "15.48", x2: "19.95", y2: "18.06" }),
+                React.createElement("line", { style: { fill: 'none' }, x1: "15.48", y1: "15.48", x2: "11.01", y2: "18.06" }),
+                React.createElement("path", { style: { fill: '#f3ba2f' }, d: "M11,18.06h0a5.16,5.16,0,0,1,4.47-7.74H30.08a15.41,15.41,0,0,0-6.85-8.25L23,1.92C14.18-2.92,4.62,7,9.63,15.65Z" }),
+                React.createElement("path", { style: { fill: '#fff' }, d: "M22.82,10c1.16-.86.93-2.17.23-3.58l1.71-1-.63-1-1.66,1c-.17-.27-.34-.55-.52-.82l1.67-1-.63-1-1.7,1-.41-.65h0L20,1.38l-1.11.68s.48.75.46.75a.62.62,0,0,1-.1.87L17.33,4.86S14.6,6.52,14.6,6.52A.43.43,0,0,1,14,6.34s-.46-.76-.46-.76l-1.36.55L13,7.48c.15.25.3.5.44.75l-1.72,1,.63,1,1.71-1c.16.29.33.57.49.84l-1.7,1,.63,1,1.72-1c1.16,1.69,2.35,2.64,4.08,1.8a2.08,2.08,0,0,0,1.24-2.8A1.86,1.86,0,0,0,22.82,10Zm-4.57.79c-1.28.78-2.48-1.51-2.91-2.21l2.29-1.39c.43.7,2,2.78.62,3.6Zm2.93-2.44C20,9,19,7.1,18.68,6.51l2.07-1.26c.35.59,1.66,2.32.43,3.06Z" }),
+                React.createElement("path", { style: { fill: '#1e1616' }, d: "M15.48,10.32h0A5.16,5.16,0,0,1,20,18.06h0L12.65,30.7a15.41,15.41,0,0,0,10.58-1.81l.26-.16c8.58-5.18,4.8-18.41-5.22-18.41Z" }),
+                React.createElement("g", { id: "Layer_2-2", "data-name": "Layer 2" },
+                    React.createElement("g", { id: "Layer_1-2", "data-name": "Layer 1-2" },
+                        React.createElement("path", { style: { fill: "#fff" }, d: "M20.14,21.37l2.93.78-.79,2.93,1.7.45,1.24-4.62L20.6,19.67l-.46,1.7M17.7,18.89l1.7.46-.46,1.7-1.7-.46Zm.92,3.36-.78,2.92,2.92.78-.45,1.7h0l-4.63-1.24,1.24-4.62h0l1.7.46m3.34,4,1.7.46-.45,1.7L21.51,28Z" }),
+                        React.createElement("path", { style: { fill: "#fff" }, d: "M21.08,24.75h0L21.55,23l-1.73-.46h0l-.46,1.72,1.72.46h0" }))),
+                React.createElement("path", { style: { fill: '#454a75' }, d: "M20,18.06h0a5.16,5.16,0,0,1-8.94,0h0L3.71,5.42A15.45,15.45,0,0,0,0,15.48v.32c.2,10,13.55,13.35,18.56,4.67Z" }),
+                React.createElement("path", { style: { fill: 'url(#Dégradé_sans_nom_298)' }, d: "M15.48,20.64h-.41A10.1,10.1,0,0,1,1.52,21c3.68,5.71,13,6.46,17-.49L20,18.06h0A5.14,5.14,0,0,1,15.48,20.64Z" }),
+                React.createElement("g", { id: "Layer_1-2-2", "data-name": "Layer_1" },
+                    React.createElement("g", { id: "_1421394342400", "data-name": " 1421394342400" },
+                        React.createElement("polygon", { style: { fill: '#fff', opacity: '0.5' }, points: "3.5 8.55 2.03 17.24 7.25 18.07 5.51 13.65 3.5 8.55" }),
+                        React.createElement("polygon", { style: { fill: '#fff', opacity: '0.75' }, points: "7.57 18.87 8.93 22.34 10.81 14.7 7.57 18.87" }),
+                        React.createElement("polygon", { style: { fill: '#fff', opacity: '0.5' }, points: "8.93 22.34 7.57 18.87 2.35 18.04 8.93 22.34" }),
+                        React.createElement("polygon", { style: { fill: '#fff' }, points: "7.25 18.07 10.5 13.9 5.51 13.65 7.25 18.07" }),
+                        React.createElement("polygon", { style: { fill: '#fff', opacity: '0.75' }, points: "3.5 8.55 10.5 13.9 5.51 13.65 3.5 8.55" }),
+                        React.createElement("polygon", { style: { fill: '#fff', opacity: '0.75' }, points: "2.03 17.24 7.25 18.07 5.51 13.65 2.03 17.24" }))),
+                React.createElement("circle", { style: { fill: '#001670' }, cx: "15.48", cy: "15.48", r: "5.16" }),
+                React.createElement("circle", { style: { fill: '#001670' }, cx: "15.48", cy: "15.48", r: "4.71" }),
+                React.createElement("polygon", { style: { fill: '#fff' }, points: "13.93 14.58 13.93 16.38 15.48 17.28 17.04 16.38 17.04 14.58 15.48 13.69 13.93 14.58" }),
+                React.createElement("path", { style: { fill: '#fff' }, d: "M16.08,11.89a.6.6,0,0,0-1.2,0,.59.59,0,0,0,.41.56l.19.94.2-.94A.6.6,0,0,0,16.08,11.89Z" }),
+                React.createElement("path", { style: { fill: '#fff' }, d: "M14.88,19.08a.6.6,0,0,0,1.2,0,.61.61,0,0,0-.4-.57l-.2-.93-.19.93A.6.6,0,0,0,14.88,19.08Z" }),
+                React.createElement("path", { style: { fill: '#fff' }, d: "M12.67,13.17a.59.59,0,0,0-.82.22.6.6,0,0,0,.91.75l.91.29L13,13.8A.6.6,0,0,0,12.67,13.17Z" }),
+                React.createElement("path", { style: { fill: '#fff' }, d: "M18.3,17.8a.6.6,0,0,0,.82-.22.61.61,0,0,0-.22-.82.62.62,0,0,0-.7.07l-.9-.3.71.64A.59.59,0,0,0,18.3,17.8Z" }),
+                React.createElement("path", { style: { fill: '#fff' }, d: "M18.3,13.17a.6.6,0,1,1-.1,1l-.9.29L18,13.8A.58.58,0,0,1,18.3,13.17Z" }),
+                React.createElement("path", { style: { fill: 'url(#linear-gradient)' }, d: "M12.67,17.8a.6.6,0,1,1-.6-1,.6.6,0,0,1,.69.07l.91-.3-.71.64A.61.61,0,0,1,12.67,17.8Z" }),
+                React.createElement("path", { style: { fill: '#f3ba2f' }, d: "M11,18.06h0a5.14,5.14,0,0,1,0-5.16c1-1.65-4.29-15,12.21-10.83L23,1.92C14.18-2.92,4.62,7,9.63,15.65Z" }),
+                React.createElement("path", { style: { fill: 'url(#Dégradé_sans_nom_298-2)' }, d: "M20,12.9c.07.12.13.24.19.37A10.08,10.08,0,0,1,27.2,24.83c3.11-6-.91-14.51-8.93-14.51H15.48A5.16,5.16,0,0,1,20,12.9Z" }),
+                React.createElement("path", { style: { fill: 'url(#Dégradé_sans_nom_298-3)' }, d: "M11,12.9l.22-.35A10.07,10.07,0,0,1,17.73.66c-6.79.32-12.11,8.05-8.1,15L11,18.06h0C10.13,16.52,10.82,14.7,11,12.9Z" })))));
 };
 
 var Icon$U = function (props) {
